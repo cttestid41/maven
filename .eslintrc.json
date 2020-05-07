@@ -1,0 +1,12 @@
+module.export = {
+	extends : '@Shutterstock/eslint-config-react',
+	plugin: [
+		'json',
+	],
+
+	rules: {
+		'import/no-anonymoys-default-export' : [1, {
+			"allowArray": true
+		}]
+		}
+}
